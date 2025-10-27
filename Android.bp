@@ -8288,6 +8288,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/hw/camera.xiaomi.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "libcutils",
                 "libcamera_metadata",
                 "libcom.xiaomi.debug",
@@ -8383,6 +8384,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/hw/com.qti.chi.override.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -9977,6 +9979,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libchifeature2.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
@@ -11677,6 +11680,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libmialgoengine.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "libc++",
                 "libcutils",
                 "liblog",
